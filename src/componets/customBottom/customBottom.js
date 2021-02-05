@@ -2,9 +2,9 @@ import React from 'react';
 
 import './customBottom.styles.scss';
 
-const CustomBottom =({childer, ...otherProps}) =>(
+const CustomBottom =({children, ...otherProps}) =>(
     <button className="custom-button" {...otherProps}> 
-        {childer}
+        {children}
     </button>
 
 )
